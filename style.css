@@ -1,11 +1,17 @@
-
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, violet, pink, violet);
+    /* background-repeat: no-repeat; */
+}
 .main{
     /* display: flex;
     flex-direction: column; */
     margin: auto;
 }
 span{
-    color: green;
+    color: orangered;
 }
 
 h1{
