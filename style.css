@@ -1,0 +1,31 @@
+
+.main{
+    /* display: flex;
+    flex-direction: column; */
+    margin: auto;
+}
+span{
+    color: green;
+}
+
+h1{
+    margin-left: 30%;
+    width: 40%;
+    font-size: 5rem;
+    text-align: center;
+
+}
+.code{
+    margin-left: 45%;
+    height: 8rem;
+    width: 8rem;
+    box-shadow: 0 0 10px rgb(113, 112, 112);
+    border-radius: 10px;
+}
+p{
+    font-size: 5rem;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    padding: 1rem 0.2rem 0 0;
+}
