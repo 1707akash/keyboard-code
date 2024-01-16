@@ -2,8 +2,10 @@
 
 let heading= document.querySelector("h1");
 let keyText = document.querySelector("p");
+let audio= new Audio('takk.mp3');
 
 document.body.addEventListener("keydown",(e)=>{
+    audio.play();
     let pressedKey = e.key;
     if(e.shiftKey && e.keyCode!=16){
         pressedkey = `Shift+${e.key}`
